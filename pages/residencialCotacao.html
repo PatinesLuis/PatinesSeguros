@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="PT-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../Style/style.css">
+    <link rel="stylesheet" href="../Style/price.css">
+    <link rel="stylesheet" href="../Style/responsive.css">
+    <title>Patines Seguros</title>
+</head>
+<body>
+
+    <header>
+        <h1>Patines Seguros</h1>
+        <div class="nav-mission">
+        <p>Vamos te assegurar de toda proteção</p>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Voltar a pagina inicial</a></li>
+
+            </ul>
+        </nav>
+    </div>
+    </header>
+
+    <main>
+
+        <main>
+           
+            <div class="center-cotacao">
+            <div class="cotacaoResidencial">
+                <h2>Realizar cotação <span style="color: rgb(0, 114, 228);;">Seguro Residencial</span></h2>
+
+                <div class="responsiveButton">
+            <label for="capital">Capital Assegurado</label>
+            <input type="number" name="capital" id="capital" value="0">
+                </div>
+
+                <div class="responsiveButton">
+            <label for="rc">RC Familiar</label>
+            <input type="number" name="rc" id="rc" value="0">
+            </div>
+                
+            <div class="responsiveButton"> 
+            <label for="eletricos">Danos elétricos</label>
+            <input type="number" name="eletricos" id="eletricos" value="0">
+            </div>
+
+            <div class="responsiveButton">
+            <label for="rb">Roubo e Furto</label>
+            <input type="number" name="rb" id="rb" value="0">
+            </div>
+
+            <div class="responsiveButton">
+            <label for="pequenasr">Pequenas reformas</label>
+            <input type="number" name="pequenasr" id="pequenasr" value="0">
+            </div>
+
+        </div>
+            
+
+           <div class="dados">
+            <h2>Dados Pessoais</h2>
+
+            <div class="nome-cliente">
+            <label for="nome">Nome completo</label>
+            <input type="text" name="nome" id="nome">
+            </div>
+            
+            <div class="endereco">
+                <fieldset>
+                <div class="cep">
+                <label for="cep">CEP</label>
+                <input type="number" name="cep" id="cep">
+                 </div>
+                 
+                 <div class="logradouro">
+
+                    <div>
+                <label for="rua">Nome da rua</label>
+                <input type="text" name="rua" id="rua">
+                 </div>
+
+                 <div>
+                    <label for="numero">Número</label>
+                    <input type="number" name="numero" id="numero">
+                </div>
+
+                <div>
+                    <label for="complemento">complemento</label>
+                    <input type="text" name="complemento" id="complemento">
+                </div>
+
+                </div>
+
+                    <div class="logradouro">
+
+                    <div>
+                        <label for="bairro">Bairro</label>
+                        <input type="text" name="bairro" id="bairro">
+                    </div>
+                
+                    <div>
+                        <label for="cidade">Cidade</label>
+                        <input type="text" name="cidade" id="cidade">
+                    </div>
+                
+                    <div>
+                        <label for="estado">Estado</label>
+                        <input type="text" name="estado" id="estado">
+                    </div>              
+            </div>        
+            </fieldset>
+            </div>
+           </div>         
+        </div>  
+
+        <input type="button" class="botao" value="Realizar cotação" onclick="calcular()">
+
+            <h2>Resultado da Cotação</h2>
+            <div id="res">
+            </div>
+        </main>
+        
+    </main>
+
+    <footer>
+        <p>Numero de contato <a href="">51992693450</a></p>
+        <p>Criado por <a href="#" target="_blank">Luis Eduardo Patines</a></p>
+        <p>E-mail para contato <a href="#">luispatines17@gmail.com</a></p>
+    </footer>
+    
+    <script src="../js/script.js"></script>
+</body>
+</html>

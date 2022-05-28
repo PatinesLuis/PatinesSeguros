@@ -1,0 +1,121 @@
+.center-cotacao{
+    display: flex;
+}
+
+.cotacaoResidencial{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+label{
+    margin-top: 10px;
+    text-shadow: 1px 2px 5px rgb(0, 225, 255);
+    color: rgb(0, 10, 100);
+    font-size: 15px;
+}
+
+input{
+    border: 1px solid rgb(0, 196, 196);
+    border-radius: 17%;
+    text-align: center;
+    height: 25px;
+}
+
+.cotacaoResidencial input{
+    width: 170px;
+    height: 30px;
+    margin-bottom: 30px;
+}
+
+.botao{
+    background-color: rgb(5, 129, 129);
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 20px;
+    font-family: fantasy;
+    margin: 10px;
+}
+
+.botao:hover{
+    background-color: transparent;
+}
+
+#res{
+    background-color: rgb(29, 153, 175);
+    min-height: 150px;
+    border: 1px solid rgb(121, 121, 121);
+    margin-top: 25px;
+    text-align: center;
+    border-radius: 10px;
+    width: 50%;
+    margin: 10px auto 100px;
+    
+}
+
+.responsiveButton{
+    display: flex;
+    flex-direction: column;
+}
+
+.dados{
+    width: 70%;
+    margin-left: 50px;
+}
+
+.nome-cliente label{
+margin-right: 20px;
+margin-left: 10px; 
+}
+
+fieldset{
+    border: 0;
+}
+
+.endereco{
+    margin-top: 25px;
+}
+.logradouro{
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logradouro input[name="rua"]{
+    width: 180px;
+    margin: 5px;
+}
+
+.logradouro input[name="numero"]{
+    width: 30px;
+    margin: 5px;
+}
+
+input[type=number]::-webkit-inner-spin-button { 
+    -webkit-appearance: none;
+    
+}
+
+.logradouro input[name="cidade"]{
+    margin: 0 10px 0 10px;
+}
+
+.logradouro input[name="bairro"], input[name="cidade"]{
+    width: 120px;
+}
+
+.logradouro input[name="estado"]{
+    width: 80px;
+}
+
+.cep{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
