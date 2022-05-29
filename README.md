@@ -6,6 +6,9 @@
  Melhorias a fazer no projeto
  
  [] Melhorar responsividade da pagina de cotação.
+ 
  [] API funciona não está funcionando no github Pages.
+ 
  [] Adicionar cotação para  seguro carro.
+ 
  [] Adicionar cotação para seguro de vida.
