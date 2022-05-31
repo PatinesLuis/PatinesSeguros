@@ -12,3 +12,5 @@
  [] Adicionar cotação para  seguro carro.
  
  [] Adicionar cotação para seguro de vida.
+ 
+ [] melhorar front-end/layout do site 
