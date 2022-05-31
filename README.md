@@ -7,7 +7,7 @@
  
  [] Melhorar responsividade da pagina de cotação.
  
- [] API não está funcionando no github Pages.
+ [x] API não está funcionando no github Pages.
  
  [] Adicionar cotação para  seguro carro.
  
