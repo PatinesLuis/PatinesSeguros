@@ -6,6 +6,7 @@ let vPequenas = document.getElementById('pequenasr')
 let resultado = document.getElementById('res')
 let nomeCliente = document.getElementById('nome')
 
+console.log("Teste")
 let rua = ''
 let numero = document.getElementById('numero')
 let complemento = document.getElementById('complemento')
