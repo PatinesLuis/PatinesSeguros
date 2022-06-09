@@ -36,7 +36,7 @@ h3{
 }
 
 header{
-    background-color: rgb(202, 202, 202);
+    background-color: rgb(255, 255, 255);
 }
 
 header ul{
@@ -54,7 +54,6 @@ header ul{
     justify-content: space-around;
     flex-wrap: wrap;
     border-bottom: 2px solid black ;
-    border-top: 2px solid black ;
     transition: 0.5s;
 }
 
